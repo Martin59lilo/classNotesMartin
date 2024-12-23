@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Compilar archivo actual con g++ (Martin)",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "${workspaceFolder}/*.cpp",
+                "-o",
+                "${fileDirname}/programa"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compilador: /usr/bin/g++"
+        },
+        {
+            "label": "Compilar y ejecutar archivo actual con g++ (Martin)",
+            "command": "${fileDirname}/programa",
+            "dependsOn": "Compilar archivo actual con g++ (Martin)",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
