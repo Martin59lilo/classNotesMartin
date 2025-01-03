@@ -1,4 +1,58 @@
-# Clase (Tipo)
+# Variables tipo de datos, entrada y salida de consola
+# Estructuras de control
+## Selectivas
+1. if/else
+2. switch
+## Repetitiva
+1. do while
+2. while
+3. for
+# Funciones
+## Transferencia por valor y referencia
+Por valor: se crea una copia local en la función de la variable.
+Por referencia: se modifica la misma variable en la función.
+## Recursividad
+# Punteros
+Dirección de una variable: se usa & para obtener la dirección de la variable.
+Un puntero almacena una dirección de memoria. Se define con un "tipo_variable* nombre". Se puede derreferenciar con ( * ) y cambiar el valor de la variable que apunta el puntero. Para no apuntar a nada se usa nullptr. Los dobles punteros hacen la misma función apuntan a un puntero.
+## Uso de memoria dinámica
+Para usar el "heap" se debe utilizar punteros y el comando new o delete. Un ejemplo para crear una variable en el heap es:
+```cpp
+int a = 2;
+int* puntero_a = new int;
+*puntero_a = a;
+delete puntero_a;
+```
+# Arreglos estáticos
+## Array estático
+Para asignar un array estático no se puede modificar el tamaño del array. La sintaxis es`int array[2] = {2,11};` donde se crea un array de tamaño 2 y con 2 elementos de tipo int. El array guarda direcciones de cada variable y empieza desde el primer elemento. Para entrar a cada elemento es `array[11]` y obtenemos el valor de 11.
+## Array dinámico
+Para crear un array dinámico en el heap tenemos que usar esta sintaxis:
+```cpp
+int* p = new int[10];
+delete[] p;
+int* q = new int[2]{11,22}
+delete[] q;
+```
+Cada elemento del array "p" está inicializado con 0 y si queremos darle valores se hace como "q". Para eliminar el espacio de memoria de cada array se hace delete[ ].
+## Matrices (arrays de arrays)
+Para inicializar una matriz estática se hace así y para pasarlo a una función se hace con un puntero:
+```cpp
+int A[3][2] = {{1,2},{3,4},{5,6}};
+cout << A[0][1] << endl; // Nos dará el valor de 2.
+```
+Para inicializar una matriz dinámica se hace así:
+```cpp
+int** create_space_matrix(int cols, int rows){
+    int** array = new int*[rows];
+    for (int i = 0; i < rows; i++)
+    {
+        array[i] = new int[cols];
+    }
+    return array;
+}
+```
+# Clases
 **La clase encapsula a los atributos y métodos**. Es el concepto abstracto de lo que se quiere crear.
 -  Propiedades o atributos: Son las características de cada clase.
 -  Procedimiento o métodos: Son las funciones que usa atributos.
