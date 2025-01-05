@@ -1,4 +1,12 @@
 # Variables tipo de datos, entrada y salida de consola
+- integer
+- float
+- double
+- double double
+- bool
+- string 
+- char
+- cout/cin
 # Estructuras de control
 ## Selectivas
 1. if/else
@@ -10,11 +18,11 @@
 # Funciones
 ## Transferencia por valor y referencia
 Por valor: se crea una copia local en la función de la variable.
-Por referencia: se modifica la misma variable en la función.
+Por referencia: se modifica la misma variable en la función. "&" adelante de la variable.
 ## Recursividad
 # Punteros
 Dirección de una variable: se usa & para obtener la dirección de la variable.
-Un puntero almacena una dirección de memoria. Se define con un "tipo_variable* nombre". Se puede derreferenciar con ( * ) y cambiar el valor de la variable que apunta el puntero. Para no apuntar a nada se usa nullptr. Los dobles punteros hacen la misma función apuntan a un puntero.
+Un puntero almacena una dirección de memoria de la variable. Se define con un "tipo_variable* nombre". Se puede derreferenciar con ( * ) y cambiar el valor de la variable que apunta el puntero. Para no apuntar a nada se usa nullptr. Los dobles punteros hacen la misma función apuntan a un puntero.
 ## Uso de memoria dinámica
 Para usar el "heap" se debe utilizar punteros y el comando new o delete. Un ejemplo para crear una variable en el heap es:
 ```cpp
@@ -31,7 +39,7 @@ Para crear un array dinámico en el heap tenemos que usar esta sintaxis:
 ```cpp
 int* p = new int[10];
 delete[] p;
-int* q = new int[2]{11,22}
+int* q = new int[2]{11,22};
 delete[] q;
 ```
 Cada elemento del array "p" está inicializado con 0 y si queremos darle valores se hace como "q". Para eliminar el espacio de memoria de cada array se hace delete[ ].
