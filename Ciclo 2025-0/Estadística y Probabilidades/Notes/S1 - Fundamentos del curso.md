@@ -40,3 +40,14 @@ Parámetro: es una medida que se obtiene de la población.
 ## Moda
 # Medidas de dispersión
 Permiten analizar la variabilidad de un conjunto de datos respecto a las medidas de tendencia central. Ejemplos de ello son: Rango, Rango Intercuartil, Varianza, Desviación estándar, Coeficiente de variación, etc.
+
+---
+# Proyecto
+1) edad: (numérico)
+2) estciv: estado civil (categórica: married, divorced, single)
+3) educación: (categórica: desconocido, secundaria, primaria, terciaria)
+4) mora: ¿tiene crédito en mora? (dicotómica: si, no)
+5) balance: balance promedio anual, en euros (numérico)
+10) campana: número de contactos realizados durante esta campaña y para este cliente (numérica, incluido el último contacto)
+12) previo: número de contactos hechos antes de esta campaña y para este cliente (numérica)
+13) Adq_ahorro: ¿ha suscrito el cliente un depósito a plazo? si(1), no(0).

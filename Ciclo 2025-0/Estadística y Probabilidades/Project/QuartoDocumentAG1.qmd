@@ -1,0 +1,76 @@
+---
+title: "PG1"
+author: "Martin Bonilla"
+format: html
+editor: visual
+---
+
+```{r}
+install.packages("readr")
+install.packages("modeest")
+library(readr)
+library(modeest)
+```
+
+```{r}
+getwd() # Ruta del directorio actual
+```
+
+Ruta nueva donde se debe encontrará el archivo con extensión csv:
+
+```{r}
+setwd("~/Martin/Brain_Martin/100 Classes/Ciclo 2025-0/Estadística y Probabilidades/Project")
+```
+
+Verificando el cambio de ruta realizado:
+
+```{r}
+getwd()
+```
+
+Leyendo el archivo:
+
+```{r}
+DF <- read_csv("AdquisicionAhorro.csv")
+summary(DF)
+
+```
+
+Visualizando el contenido del archivo en una nueva pestaña:
+
+```{r}
+View(DF)
+```
+
+### Indentificando valores faltantes:
+
+```{r}
+# Mostrar el número de valores faltantes por columna:
+apply(is.na(DF),2,sum)
+```
+
+### Visualizando los nombres de las columnas:
+
+```{r}
+colnames(DF)
+```
+
+### Cambio de nombre a una variable (columna):
+
+```{r}
+colnames(DF)[12] <- "history"
+```
+
+### Explorando el dataset:
+
+```{r}
+str(DF)
+```
+
+### Verificando el cambio realizado:
+
+```{r}
+colnames(DF)
+```
+
+## 

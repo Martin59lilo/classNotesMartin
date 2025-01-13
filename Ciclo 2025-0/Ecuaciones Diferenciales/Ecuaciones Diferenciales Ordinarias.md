@@ -5,6 +5,7 @@ tags:
 ---
 # Notes
 - [[S1 - Ecuaciones Diferenciales Tipo, Autónomas y Métodos]]
+- [[S2 - Problema de mezclas]]
 # Anexos
 Canvas 2024-1: https://utec.instructure.com/courses/14098
 Asesorías: https://docs.google.com/spreadsheets/d/1UKPyzRxMkVMkGkJg3WqmLzVsLB5qfRXBsR8ASzP9AWk/edit?gid=0#gid=0
