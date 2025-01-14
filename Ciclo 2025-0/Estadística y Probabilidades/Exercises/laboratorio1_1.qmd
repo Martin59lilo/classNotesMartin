@@ -23,7 +23,7 @@ getwd() # Ruta del directorio actual
 Ruta nueva donde se debe encontrará el archivo con extensión csv:
 
 ```{r}
-setwd("D:/UTEC/DATA")
+setwd("/home/martin_bonilla__/Martin/Brain_Martin/100 Classes/Ciclo 2025-0/Estadística y Probabilidades/Exercises")
 ```
 
 Verificando el cambio de ruta realizado:

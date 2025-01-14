@@ -6,8 +6,8 @@ editor: visual
 ---
 
 ```{r}
-install.packages("readr")
-install.packages("modeest")
+#install.packages("readr")
+#install.packages("modeest")
 library(readr)
 library(modeest)
 ```
