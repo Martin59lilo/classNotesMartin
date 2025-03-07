@@ -1,1 +1,1 @@
-Primer readme.md
+Este es un repositorio de notas de clases de la universidad.
