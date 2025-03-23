@@ -2,7 +2,6 @@
 tags:
   - Matemáticas/Vectorial
 ---
-
 # Integrales iteradas
 $$
 V = \int \int_{R}f_{(x,y)}dA=\int^{a}_{b}\int^{d}_{c}f_{(x,y)}dy dx
