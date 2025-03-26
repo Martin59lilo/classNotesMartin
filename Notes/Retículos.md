@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/MD2
+  - Math/MD2
 ---
 # Definiciones
 Es un [[Conjunto parcialmente ordenado (CPO)]] donde todos los elementos del conjunto tienen ínfimo y supremo.

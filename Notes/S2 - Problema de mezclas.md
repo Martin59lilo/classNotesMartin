@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/EDO
+  - Math/EDO
 ---
 # Mezclas de un solo tanque
 **Queremos hallar la cantidad de sal o cualquier soluto en la mezcla final.**

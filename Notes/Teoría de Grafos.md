@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/MD2
+  - Math/MD2
 ---
 Un grafo se define $G=(V,E)$ donde $V$: conjunto de vértices; $E$: conjunto de aristas.
 # Grafos no dirigidos

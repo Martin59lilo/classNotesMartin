@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 ## Desplazamiento longitudinal de elementos
 Una partícula se moverá longitudinalmente a través de ésta función:

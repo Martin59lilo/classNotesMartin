@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 En una interfaz lisa parte de la onda se refleja y la otra parte se refracta. Normal: es la frontera perpendicular entre 2 medios.
 ![[Imagen de reflexión y refracción.png]]

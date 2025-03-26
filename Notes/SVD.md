@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/AlgLineal
+  - Math/AlgLineal
 ---
 
 https://www.youtube.com/watch?v=N8xQ3iPn3lA

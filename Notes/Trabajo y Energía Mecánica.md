@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 # Trabajo (W)
 Es la cantidad de energía que se transfiere a un cuerpo.

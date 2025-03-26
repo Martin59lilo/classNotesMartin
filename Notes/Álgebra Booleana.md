@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/MD2
+  - Math/MD2
 ---
 # Definición
 Por retículo: Es una [[Retículos]] acotada, complementada y distributiva.

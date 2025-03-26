@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 # Campos eléctrico y magnético
 - Campo eléctrico: Es producido por una carga eléctrica. Genera fuerzas de atracción y repulsión. Existen cargas positivas y negativas.

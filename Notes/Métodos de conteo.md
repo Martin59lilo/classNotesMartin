@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/MD2
+  - Math/MD2
 ---
 # Principio de la suma
 Ocurren al mismo tiempo y son $t$ etapas independientes. $n_{1}n_{2}\dots n_{t}$

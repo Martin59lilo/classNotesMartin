@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/MD2
+  - Math/MD2
 ---
 # Relación de orden parcial
 Propiedades:

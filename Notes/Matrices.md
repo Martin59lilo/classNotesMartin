@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/AlgLineal
+  - Math/AlgLineal
 ---
 
 `Multiplicación de matrices`

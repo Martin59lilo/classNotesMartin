@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 # Movimiento Armónico Simple (MAS)
 1. La función de la posición en función del tiempo se describe:

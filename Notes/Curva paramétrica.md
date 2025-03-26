@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Vectorial
+  - Math/Vectorial
 ---
 
 # Definición

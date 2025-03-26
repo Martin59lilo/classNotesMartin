@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/AlgLineal
+  - Math/AlgLineal
 ---
 
 # Espacio vectorial

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Vectorial
+  - Math/Vectorial
 ---
 
 https://www.geogebra.org/m/h9becz7z#material/uumrbrbq

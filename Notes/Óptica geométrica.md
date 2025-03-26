@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Óptica
+  - Math/Óptica
 ---
 En espejos y lentes se usa esta relación de $p$, $q$, $f$ y $R$:
 $$

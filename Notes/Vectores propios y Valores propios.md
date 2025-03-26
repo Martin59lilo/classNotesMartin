@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/AlgLineal
+  - Math/AlgLineal
 ---
 
 # Vector propio y valor propio

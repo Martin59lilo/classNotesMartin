@@ -1,6 +1,6 @@
 ---
 tags:
-  - Matemáticas/Vectorial
+  - Math/Vectorial
 ---
 # Puntos críticos
 Para hallar los puntos crítico debemos: $\nabla f{(x,y)}=<0;0>$.
