@@ -2,10 +2,13 @@
 tags:
   - Math/EDO
 date / time: 2025-03-24T21:38:00
-Status: false
+Status: true
 ---
 > [!abstract] Abstract
-> Contents
+> - Una ecuación diferencial es una ecuación que se expresa con sus derivadas y una función incógnita. Se puede clasificar por orden, linealidad o tipo.
+> - Los campos direccionales muestran el comportamiento de la derivada de la función incógnita en un plano. Muestran las posibles curvas solución.
+> - Los puntos críticos son soluciones constantes a nuestras ecuaciones diferenciales y es cuando se iguala la derivada a 0. Estos delimitan el campo direccional y tenemos que analizar puntos piloto para tener la línea de fase. De esta manera podemos saber si son repulsores, atractores o semiestables.
+> - Un método de resolución de EDO's es el de separar variables a cada lado para integrar a cada lado y conseguir la función incógnita.
 
 ---
 # Repaso de integrales
@@ -38,9 +41,21 @@ $$
 $$\int u^{100}du =\frac{u^{101}}{101}+C=\frac{(x+3)^{101}}{101}+C
 $$
 6. Integral por partes
-   
+   $$
+\int udv = uv-\int vdu
+$$
 7. Integral por fracciones parciales
-
+	Es un método de integración cuando tenemos un producto en el denominador. Podemos usar este método para la ecuación logística:
+$$
+\begin{aligned}
+\int\frac{dP}{P(a-bP)}=\int dt \\
+\frac{1}{P(a-bP)}=\frac{A}{P}+\frac{B}{a-bP} = \frac{A(a-bP)+BP}{P(a-bP)}\\
+1=A(a-bP)+BP \\
+\text{Si P=a/b, } B=\frac{b}{a} \text{ y Si P=0,} A=\frac{1}{a} \\
+\int \frac{1}{aP}dP+\int \frac{1}{a(a-bP)}dP=t+C \\
+\frac{1}{a}\ln|P|-\frac{1}{a}\ln |a-bP|=t+C
+\end{aligned}
+$$
 
 # Definición y clasificación
 Una ecuación diferencial ordinaria es una ecuación que se expresa con sus derivadas en función de variables independientes.

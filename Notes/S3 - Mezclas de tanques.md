@@ -2,15 +2,16 @@
 tags:
   - Math/EDO
 date / time: 2025-04-10T23:19:00
-Status: false
+Status: true
 ---
 > [!abstract] Abstract
-> Contents
+> - En las mezclas de tanques tenemos la concentración de sal o el soluto es la diferencia de las razones de entrada y salida $\frac{dA}{dt}=q_{in}\cdot c_{in}-q_{out}\cdot c_{out}$. Para hallar la relación del volumen de un recipiente con el tiempo se expresa de la siguiente forma $\frac{dV}{dt}=q_{in}-q_{out}$. A partir de estos datos podemos sacar el $V_{(t)}$ o el $A_{(t)}$.
+> - Para un vaciado de tanque tenemos que tener en cuenta lo siguiente: $\frac{dh}{dt}=-c\cdot \frac{A_{o}}{A_{h}}\sqrt{ 2gh }$ dónde $A_{o}$ es el área transversal del agujero, $A_{h}$ es el área transversal en una altura en un determinado tiempo y $g$ es gravedad.
 
 ---
 # Mezclas de un solo tanque
 **Queremos hallar la cantidad de sal o cualquier soluto en la mezcla final.**
-- [ ] En un tanque con mezclas existe una entrada y una salida. Ambas tienen una concentración del soluto y un flujo correspondiente
+En un tanque con mezclas existe una entrada y una salida. Ambas tienen una concentración del soluto y un flujo correspondiente
 - $s_{in}$: **concentración** del soluto a la entrada $\frac{masa}{volumen}$
 - $q_{in}$: **flujo** de entrada o caudal $\frac{volumen}{tiempo}$
 Lo mismo pasa con una concentración de salida y un flujo de salida. **La ecuación que rige al soluto o la concentración es la diferencia de las razones de entrada y salida**:
@@ -32,9 +33,6 @@ $$
 - $A_{o}$ es el área transversal del agujero
 - $A_{h}$ es el área transversal en una altura determinada por un tiempo
 - $g$ es la gravedad
-## Teoremas
-Teorema de cuerdas
-Tangentes
 # References
 - [[Semana03_Auditorio_25-1.pdf]]
 - [[Semana03_Teoria_25-1.pdf]]
