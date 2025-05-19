@@ -12,7 +12,7 @@ Status: true
 # Mezclas de un solo tanque
 **Queremos hallar la cantidad de sal o cualquier soluto en la mezcla final.**
 En un tanque con mezclas existe una entrada y una salida. Ambas tienen una concentración del soluto y un flujo correspondiente
-- $s_{in}$: **concentración** del soluto a la entrada $\frac{masa}{volumen}$
+- $c_{in}$: **concentración** del soluto a la entrada $\frac{masa}{volumen}$
 - $q_{in}$: **flujo** de entrada o caudal $\frac{volumen}{tiempo}$
 Lo mismo pasa con una concentración de salida y un flujo de salida. **La ecuación que rige al soluto o la concentración es la diferencia de las razones de entrada y salida**:
 $$
