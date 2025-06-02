@@ -10,7 +10,5 @@ Status: false
 - La transformación e irrupción de los sectores populares, en el espacio urbano y en la vida política se le llama desborde popular usado por Jose Matos Mar para describir los cambios sociales, económicos y políticos que sufrió el Perú en las decádas del 70 al 80.
 	- Características: Informalidad, aparición de barriadas, desorden urbano, etc.
 - La migración genera concentración de población en zonas urbanas y se da por búsqueda de oportunidades económicas. La migración a la ciudad genera un desorden de territorio como la aparición de Barriadas y la distinción de grupos o la centralización económica
-
-
 # References
 - [[PTSC Migraciones 2025 01.pdf]]

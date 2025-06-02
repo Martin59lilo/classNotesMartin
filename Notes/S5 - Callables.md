@@ -43,7 +43,7 @@ int main(){
 ```c++
 auto lambda_name = [capture](parameters) {body;};
 ```
-- Capture: En el captura podemos capturar variables externas por valor (no se modifican) y por referencia `&` o `mutable` (sí se modifican).
+- Capture: Podemos capturar variables externas por valor (no se modifican) y por referencia `&` o `mutable` (sí se modifican).
 - Parameters: Argumentos que recibe como una función normal.
 - Body: Acciones que realizará el lambda
 Ejemplo de lambda:
@@ -54,5 +54,6 @@ std::cout << cuadrado(5);          // Imprime 25
 # References
 
 - [[Unidad 2 - Semana 5 - Libreria Estandar - Contanedores.pdf]]
+- [[Unidad 2 - Semana 6 - Libreria Estandar - Iteradores.pdf]]
 - [[Laboratorio 5A.pdf]]
 - [[2025_1_Prog_3___PC1__Lab_1_03_.pdf]]
